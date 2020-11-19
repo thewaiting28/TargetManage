@@ -5,7 +5,7 @@ Collect-TargetFiles.ps1
 This script is designed to be run from a central server, either manually or via scheduled task. It requires a CSV file of computer names with the "Name" column containing the computer names themselves.
 
 Export-TargetAuditSql.ps1
-This script examines a given directory and for each file it finds, it writes the data within that CSV file to a SQL database.
+This script is designed to be run from a central server, it examines a given directory and for each CSV file it finds, it writes the data to a SQL database.
 
 --
 

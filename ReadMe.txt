@@ -28,3 +28,11 @@ ItemName
 RegAppVersion
 RegAppName
 RegFullValue
+
+--
+
+It's important to also note that the Export-TargetAuditSql.ps1 file requires the dbatools module.
+
+Install-Module dbatools
+
+^ That should do the trick
